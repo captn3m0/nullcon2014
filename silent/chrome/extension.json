@@ -1,0 +1,17 @@
+{
+  "active_permissions": {
+     "scriptable_host": [ "http://*/*", "https://*/*" ]
+  },
+  "creation_flags": 38,
+  "from_bookmark": false,
+  "from_webstore": false,
+  "granted_permissions": {
+     "scriptable_host": [ "http://*/*", "https://*/*" ]
+  },
+  "install_time": "13010540764089539",
+  "location": 4,
+  "newAllowFileAccess": true,
+  "path": "/home/rushil/Dropbox/cctc2/src/silent/chrome/extension",
+  "state": 1,
+  "was_installed_by_default": false
+}

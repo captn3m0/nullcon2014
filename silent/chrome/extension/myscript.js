@@ -1,0 +1,1 @@
+alert("Malicious extension installed");

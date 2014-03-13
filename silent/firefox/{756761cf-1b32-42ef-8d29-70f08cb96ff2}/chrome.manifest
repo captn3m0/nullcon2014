@@ -1,0 +1,6 @@
+content   malware                 chrome/content/
+skin      malware   classic/1.0   chrome/skin/
+locale    malware   en-US         chrome/locale/en-US/
+
+overlay   chrome://browser/content/browser.xul   chrome://malware/content/ff-overlay.xul
+

