@@ -28,3 +28,6 @@ These release files are also licenced under MIT.
 
 The paper behind the talk can be accessed [here][arxiv], and the presentations are
 available at [speakerdeck][sd]. I wrote a blog post about it [here][blog].
+
+[sd]: http://speakerdeck.com/captn3m0
+[blog]: http://captnemo.in/blog/2014/03/13/nullcon-experience/
