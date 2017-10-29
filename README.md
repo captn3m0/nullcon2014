@@ -4,21 +4,21 @@ browser-extension-security
 This is the source code for my talk on Browse Extension Security which I gave at
 nullcon 2014.
 
-##Licence
+## Licence
 Released under the MIT Licence.
 
-#Structure
+# Structure
 - silent/chrome (Source code for silent extension install in Chrome)
 - silent/firefox (Source code for silent extension install in Firefox)
 - webstore/chrome/ (Code to download extensions from the chrome webstore, and to
   run a static analysis over them. Results are fed to a mysql database)
 - webstore/analysis (code that powers nullcon.captnemo.in)
 
-#Silent Extension Install
+# Silent Extension Install
 This code was written a while back, and does not work with the latest versions of 
 either Browser (FF/Chrome), but I belive can be modified and made to work again.
 
-#[Release](https://github.com/captn3m0/nullcon2014/releases)
+# [Release](https://github.com/captn3m0/nullcon2014/releases)
 Since a lot of data is missing from the repo (I didn't feel like committing huge
 files), it is availble under the releases section of this repo. Just click
 on releases on the top, and you can download manifest files of over 7k extensions,
