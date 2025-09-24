@@ -4,6 +4,16 @@ browser-extension-security
 This is the source code for my talk on Browse Extension Security which I gave at
 nullcon 2014.
 
+- Paper: https://arxiv.org/abs/1403.3235
+- Presentation: https://speakerdeck.com/captn3m0/a-security-analysis-of-browser-extensions
+- Blog Post: https://captnemo.in/blog/2014/03/13/nullcon-experience/
+- Source Code: https://github.com/captn3m0/nullcon2014 . What you're looking for is mostly in the webstore directory. An offshoot of the research was silent-extension-installations-in-browsers. Code for that is in the `silent/` directory.
+- Dataset: https://github.com/captn3m0/nullcon2014/releases/tag/1.0 (The SQL file should be importable in MySQL, it contains the "extension-permission" mapping, while the ZIP file contains a dump of all extension manifests.
+
+Note that this is decade old research, and the state of art in both directions has advanced
+considerably. Browsers are much more resilient against silent installations,
+by limiting them to enterprise profiles, and permission abuse is now part of the threat model used by extension stores.
+
 ## Licence
 Released under the MIT Licence.
 
